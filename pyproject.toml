@@ -1,16 +1,17 @@
 [project]
 name = "chercher-plugin-ingest"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "Cookiecutter template for creating new Chercher plugins."
+authors = [{ name = "dnlzrgz", email = "contact@dnlzrgz.com" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "cookiecutter>=2.6.0",
-]
+dependencies = ["cookiecutter>=2.6.0"]
+
+[project.urls]
+homepage = "https://dnlzrgz.com/projects/chercher-plugin/"
+source = "https://github.com/dnlzrgz/chercher-plugin"
+issues = "https://github.com/dnlzrgz/chercher-plugin/issues"
+releases = "https://github.com/dnlzrgz/chercher-plugin/releases"
 
 [dependency-groups]
-dev = [
-    "commitizen>=4.6.0",
-    "pytest>=8.3.5",
-    "ruff>=0.11.5",
-]
+dev = ["commitizen>=4.6.0", "pytest>=8.3.5", "ruff>=0.11.5"]
