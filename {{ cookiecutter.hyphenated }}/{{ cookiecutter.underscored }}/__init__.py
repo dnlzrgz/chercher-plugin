@@ -3,5 +3,5 @@ from chercher import Document, hookimpl
 
 
 @hookimpl
-def ingest(uri: str) -> Generator[Document, None, None]:
+def ingest(uri: str, settings: dict) -> Generator[Document, None, None]:
     yield Document(uri=uri, content="")
