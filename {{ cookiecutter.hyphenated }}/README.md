@@ -7,6 +7,10 @@
 > [!NOTE]
 > TODO
 
+```bash
+uv tool install --with {{ cookiecutter.hyphenated }} chercher
+```
+
 ## Settings
 
 > [!NOTE]
